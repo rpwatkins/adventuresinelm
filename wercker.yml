@@ -8,6 +8,6 @@ build:
 deploy:
   steps:
     - duleorlovic/ftp-deploy:
-        destination: ftp://ftp.adventuresinelm.com/home/learn315/public_html/adventuresinelm.com
+        destination: ftp://ftp.adventuresinelm.com/public_html/adventuresinelm.com
         username: rod@adventuresinelm.com
         password: waterh2o
