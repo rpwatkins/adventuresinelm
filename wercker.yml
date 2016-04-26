@@ -7,6 +7,9 @@ build:
         flags: --buildDrafts=true
 deploy:
   steps:
+    - install-packages:
+        packages: curl
+
     - duleorlovic/ftp-deploy:
         destination: ftp://ftp.adventuresinelm.com
         username: rod@adventuresinelm.com
