@@ -5,3 +5,9 @@ build:
         version: "0.14"
         theme: greyshade
         flags: --buildDrafts=true
+deploy:
+  steps:
+    - duleorlovic/ftp-deploy:
+        destination: ftp://ftp.adventuresinelm.com/home/learn315/public_html/adventuresinelm.com
+        username: rod@adventuresinelm.com
+        password: waterh2o
